@@ -1,4 +1,4 @@
-class RC4
+class RubyRc4
 
   def initialize(str)
     raise SyntaxError, "RC4: Key supplied is blank"  if str.eql?('')
